@@ -8,3 +8,7 @@ werkervaring
 albert-heijn
 skills
 plan-voor-de-toekomst
+vrije-opdracht
+keuze-nieuwe-skill
+planning
+uiwerking
