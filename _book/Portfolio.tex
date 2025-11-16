@@ -1,0 +1,161 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{book}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Plan voor de toekomst},
+  pdfauthor={Twan van der Lee},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Plan voor de toekomst}
+\author{Twan van der Lee}
+\date{2025-11-11}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter{Introductie}\label{introductie}
+
+Op deze website vind je de portofolio van Twan van der Lee. Bij vragen contacteer \href{mailto:twan.vanderlee@student.hu.nl}{\nolinkurl{twan.vanderlee@student.hu.nl}}.
+
+\chapter{Curriculum Vitae (CV)}\label{curriculum-vitae-cv}
+
+\section{\texorpdfstring{\textbf{Profiel}}{Profiel}}\label{profiel}
+
+Leergierig, doelgericht, gedisciplineerd en altijd opzoek naar antwoorden,
+de beste omschrijving van mijzelf. Ik ben dagelijks bezig met het verbreden
+van mijn kennis.
+Mijn vrije tijd besteed ik aan sport, zo doe ik aan krachttraining en voetbal
+ik al jaren. Ook hecht ik veel waarde aan het besteden van tijd met mijn
+vrienden en naasten.
+
+\section{\texorpdfstring{\textbf{Opleidingen}}{Opleidingen}}\label{opleidingen}
+
+\subsubsection{\texorpdfstring{\textbf{\emph{St.~Bonifatiuscollege}}}{St.~Bonifatiuscollege}}\label{st.-bonifatiuscollege}
+
+Hoger algemeen voortgezet onderwijs (HAVO)\\
+- Vakkenpakket: Natuur, Techniek \& Gezondheid
+
+\subsubsection{\texorpdfstring{\textbf{\emph{Hogeschool Utrecht}}}{Hogeschool Utrecht}}\label{hogeschool-utrecht}
+
+Bachelor Life Sciences (2022-Heden)\\
+- Specialisatie: Biomolecular Research\\
+- GPA 7.8/10
+
+Minor Applied Bioanalytical and Pharmaceutical Chemistry (2024-2025)\\
+- Skills: HPLC, Massaspectrometrie
+
+Minor Data Science for Biology (2025-2026)\\
+- Skills: R, Bash
+
+\section{\texorpdfstring{\textbf{Werkervaring}}{Werkervaring}}\label{werkervaring}
+
+\subsubsection{\texorpdfstring{\textbf{\emph{Albert Heijn}}}{Albert Heijn}}\label{albert-heijn}
+
+Allround supermarkt medewerker (2018-Heden)
+
+\section{\texorpdfstring{\textbf{Skills}}{Skills}}\label{skills}
+
+\begin{itemize}
+\tightlist
+\item
+  Data-analyse (R en Bash)\\
+\item
+  PCR / qPCR\\
+\item
+  Gel-elektroforese\\
+\item
+  DNA- en RNA-isolatie\\
+\item
+  Western blotting\\
+\item
+  Celkweektechnieken\\
+\item
+  HPLC / massaspectrometrie
+\end{itemize}
+
+\chapter{Plan voor de toekomst}\label{plan-voor-de-toekomst}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Over 1/2 jaar wil ik nog niet werken maar nog verder studeren. Hierna wil ik dat mijn droombaan aan de volgende punten voldoet. Ten eerst wil ik op een lab werken waar mijn werd een grote positieve inpact heeft op de samenleving, denk dan hierbij aan onderzoek tegen kanker of andere ziektes. Ook wil ik dat mijn droom baan een mooie balans heeft met op het lab werken en de data verwerken achter de computer.
+\item
+  Vanaf volgend jaar ben ik op zoek naar een stage in de proteomics. Skills dieik hiervoor al heb zijn praktijkervaring met HPLC en massaspectometrie.
+\item
+  Voor deze eventuele stage is het voor mij handig om de data van de MS goed te kunnen verwerken met R.
+\end{enumerate}
+
+\end{document}
