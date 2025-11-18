@@ -12,4 +12,4 @@ Voor het uitkiezen van een skill heb ik mijn mogelijke stage in de proteomics me
 - 10 uur Toepassen op volledige dataset.  
 - 6 uur Uitwerken: portfolio, rapportage/samenvavtten
 
-## ___Uiwerking___
+## ___Uitwerking___

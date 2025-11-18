@@ -1,7 +1,7 @@
 --- 
 title: "Portfolio Twan van der Lee"
 author: "Twan van der Lee"
-date: "`r Sys.Date()`"
+date: "2025-11-18"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -14,9 +14,3 @@ description: "De portfolio van Twan van der Lee."
 
 Op deze website vind je de portofolio van Twan van der Lee. Bij vragen contacteer twan.vanderlee@student.hu.nl.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```

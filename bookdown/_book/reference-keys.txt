@@ -11,4 +11,9 @@ plan-voor-de-toekomst
 vrije-opdracht
 keuze-nieuwe-skill
 planning
-uiwerking
+uitwerking
+portfolio-repository
+mapsructuur-bestanden
+portfolio-twan-van-der-lee
+projectstructuur
+readme
