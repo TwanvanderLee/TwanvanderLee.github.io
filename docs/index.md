@@ -1,7 +1,7 @@
 --- 
 title: "Portfolio"
 author: "Twan van der Lee"
-date: "2025-11-16"
+date: "2025-11-18"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book

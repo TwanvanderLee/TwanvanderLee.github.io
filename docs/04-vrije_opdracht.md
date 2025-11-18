@@ -1,9 +1,3 @@
----
-title: "Vrije Opdracht"
-author: "Twan van der Lee"
-date: "2025-11-16"
-output: html_document
----
 # Vrije opdracht
 
 ## ___Keuze nieuwe skill___
