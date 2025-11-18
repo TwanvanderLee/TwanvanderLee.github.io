@@ -14,6 +14,6 @@ planning
 uitwerking
 portfolio-repository
 mapsructuur-bestanden
+readme
 portfolio-twan-van-der-lee
 projectstructuur
-readme
